@@ -53,7 +53,7 @@ body {
   
   .small-img {
     display: block;
-    margin: 10px auto;
+    margin: 10px 0;  /* Changed from margin: 10px auto */
     max-width: 300px;
     width: 100%;
     height: auto;
@@ -67,4 +67,3 @@ body {
     text-align: center;
     padding: 15px 0;
   }
-  
