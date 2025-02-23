@@ -53,7 +53,29 @@ body {
   
   .small-img {
     display: block;
-    margin: 10px 0;  /* Changed from margin: 10px auto */
+    margin: 10px 0;  /* Left alignment for article images */
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  /* Add specific rule for header image */
+  header .small-img {
+    display: block;
+    margin: 10px auto;  /* Center alignment for header image */
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  /* Keep article images left-aligned */
+  article .small-img {
+    display: block;
+    margin: 10px 0;  /* Left alignment for article images */
     max-width: 300px;
     width: 100%;
     height: auto;
