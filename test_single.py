@@ -63,5 +63,5 @@ def main():
 
 if __name__ == "__main__":
     # Test specific image
-    image_path = "real3.webp"  # Replace with your image path
+    image_path = "lastfake.jpg"  # Replace with your image path
     analyze_image(image_path)
